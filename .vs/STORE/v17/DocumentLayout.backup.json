@@ -1,0 +1,198 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Infrastrucre\\Migrations\\20250701204724_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:store.Infrastrucre\\Migrations\\20250701204724_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08BEB49E-2C34-4AB2-8F2E-A4078A244311}|store.API\\store.API.csproj|c:\\users\\omnia\\desktop\\iti\\store\\store.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{08BEB49E-2C34-4AB2-8F2E-A4078A244311}|store.API\\store.API.csproj|solutionrelative:store.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08BEB49E-2C34-4AB2-8F2E-A4078A244311}|store.API\\store.API.csproj|c:\\users\\omnia\\desktop\\iti\\store\\store.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08BEB49E-2C34-4AB2-8F2E-A4078A244311}|store.API\\store.API.csproj|solutionrelative:store.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08BEB49E-2C34-4AB2-8F2E-A4078A244311}|store.API\\store.API.csproj|c:\\users\\omnia\\desktop\\iti\\store\\store.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{08BEB49E-2C34-4AB2-8F2E-A4078A244311}|store.API\\store.API.csproj|solutionrelative:store.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DF4DAA10-C008-4988-BFE5-C7B1A3933FFB}|store.Infrastrucre\\store.Infrastrucre.csproj|c:\\users\\omnia\\desktop\\iti\\store\\store.infrastrucre\\context\\storecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DF4DAA10-C008-4988-BFE5-C7B1A3933FFB}|store.Infrastrucre\\store.Infrastrucre.csproj|solutionrelative:store.infrastrucre\\context\\storecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332388E4-5D0F-4E0D-A666-E5974C2289BC}|store.Application\\store.Application.csproj|c:\\users\\omnia\\desktop\\iti\\store\\store.application\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{332388E4-5D0F-4E0D-A666-E5974C2289BC}|store.Application\\store.Application.csproj|solutionrelative:store.application\\services\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332388E4-5D0F-4E0D-A666-E5974C2289BC}|store.Application\\store.Application.csproj|c:\\users\\omnia\\desktop\\iti\\store\\store.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{332388E4-5D0F-4E0D-A666-E5974C2289BC}|store.Application\\store.Application.csproj|solutionrelative:store.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69EE21F-8CAA-4BD7-9EAB-1611D7D366E6}|store.Domin\\store.Domin.csproj|c:\\users\\omnia\\desktop\\iti\\store\\store.domin\\enum\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B69EE21F-8CAA-4BD7-9EAB-1611D7D366E6}|store.Domin\\store.Domin.csproj|solutionrelative:store.domin\\enum\\orderstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B69EE21F-8CAA-4BD7-9EAB-1611D7D366E6}|store.Domin\\store.Domin.csproj|c:\\users\\omnia\\desktop\\iti\\store\\store.domin\\enitity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B69EE21F-8CAA-4BD7-9EAB-1611D7D366E6}|store.Domin\\store.Domin.csproj|solutionrelative:store.domin\\enitity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{332388E4-5D0F-4E0D-A666-E5974C2289BC}|store.Application\\store.Application.csproj|c:\\users\\omnia\\desktop\\iti\\store\\store.application\\operationresults\\operationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{332388E4-5D0F-4E0D-A666-E5974C2289BC}|store.Application\\store.Application.csproj|solutionrelative:store.application\\operationresults\\operationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250701204724_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Infrastrucre\\Migrations\\20250701204724_InitialCreate.cs",
+              "RelativeDocumentMoniker": "store.Infrastrucre\\Migrations\\20250701204724_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Infrastrucre\\Migrations\\20250701204724_InitialCreate.cs",
+              "RelativeToolTip": "store.Infrastrucre\\Migrations\\20250701204724_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T20:47:24.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.API\\appsettings.json",
+              "RelativeDocumentMoniker": "store.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.API\\appsettings.json",
+              "RelativeToolTip": "store.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-01T20:47:12.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "store.API\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.API\\appsettings.Development.json",
+              "RelativeToolTip": "store.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-01T20:45:47.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.API\\Program.cs",
+              "RelativeDocumentMoniker": "store.API\\Program.cs",
+              "ToolTip": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.API\\Program.cs",
+              "RelativeToolTip": "store.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T20:45:37.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StoreContext.cs",
+              "DocumentMoniker": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Infrastrucre\\Context\\StoreContext.cs",
+              "RelativeDocumentMoniker": "store.Infrastrucre\\Context\\StoreContext.cs",
+              "ToolTip": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Infrastrucre\\Context\\StoreContext.cs",
+              "RelativeToolTip": "store.Infrastrucre\\Context\\StoreContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T19:39:28.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderStatus.cs",
+              "DocumentMoniker": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Domin\\Enum\\OrderStatus.cs",
+              "RelativeDocumentMoniker": "store.Domin\\Enum\\OrderStatus.cs",
+              "ToolTip": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Domin\\Enum\\OrderStatus.cs",
+              "RelativeToolTip": "store.Domin\\Enum\\OrderStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T20:07:11.201Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "store.Application\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "store.Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAtwCcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T19:25:08.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Application\\Services\\EmailService.cs",
+              "RelativeDocumentMoniker": "store.Application\\Services\\EmailService.cs",
+              "ToolTip": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Application\\Services\\EmailService.cs",
+              "RelativeToolTip": "store.Application\\Services\\EmailService.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAApwBkAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T19:25:05.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Domin\\Enitity\\User.cs",
+              "RelativeDocumentMoniker": "store.Domin\\Enitity\\User.cs",
+              "ToolTip": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Domin\\Enitity\\User.cs",
+              "RelativeToolTip": "store.Domin\\Enitity\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T19:30:29.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "OperationResult.cs",
+              "DocumentMoniker": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Application\\OperationResults\\OperationResult.cs",
+              "RelativeDocumentMoniker": "store.Application\\OperationResults\\OperationResult.cs",
+              "ToolTip": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Application\\OperationResults\\OperationResult.cs",
+              "RelativeToolTip": "store.Application\\OperationResults\\OperationResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T19:24:41.12Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
