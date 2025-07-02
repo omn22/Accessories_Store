@@ -1,6 +1,8 @@
 
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using store.Application.Interface.Services;
+using store.Application.Services;
 using Store.Application.Interface.Services;
 using Store.Application.Services;
 using Store.Domin.Enitity;
@@ -25,9 +27,12 @@ namespace store.API
             builder.Services.Configure<IdentityOptions>(options =>
             {
                 options.SignIn.RequireConfirmedEmail = true;
+                options.Lockout.MaxFailedAccessAttempts = builder.Configuration.GetValue<int>("AccountLock:TimesOfWrongPssword");
+                options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromSeconds(builder.Configuration.GetValue<int>("AccountLock:LockTime"));
             });
             builder.Services.AddScoped<IEmailService, EmailService>();
             builder.Services.AddScoped<IAuthService, AuthService>();
+            builder.Services.AddScoped<ITokenService, GenerateJWT>();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

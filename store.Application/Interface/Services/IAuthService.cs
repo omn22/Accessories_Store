@@ -1,4 +1,5 @@
-﻿using Store.Application.DTOs;
+﻿using Microsoft.AspNetCore.Identity;
+using Store.Application.DTOs;
 using Store.Application.OperationResults;
 using System;
 using System.Collections.Generic;
@@ -12,7 +13,7 @@ namespace Store.Application.Interface.Services
     {
         Task<OperationResult> RegisterAsync(RegisterUserDTO registerDTO);
         Task<OperationResult> ConfirmEmailAsync(string userId, string token);
-
-
+        Task<OperationResult> LoginAsync (string Email, string password,bool RememberMe);
+      
     }
 }

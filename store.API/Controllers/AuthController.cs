@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using store.Application.DTOs;
 using Store.Application.DTOs;
 using Store.Application.Interface.Services;
 using Store.Application.OperationResults;
@@ -35,7 +36,15 @@ namespace Store.API.Controllers
 
             return BadRequest(new { message = result.Message });
         }
-
+        [HttpPost("Login")]
+        public async Task<IActionResult> Login (LoginDTO loginDTO)
+        {
+            var result = await _authService.LoginAsync(loginDTO.Email, loginDTO.Password,loginDTO.RememberMe);
+            if (result.Success)
+                if (result.Success)
+                    return Ok(new { message = result.Message });
+            return BadRequest(new { message = result.Message });
+        }
 
     }
 }
