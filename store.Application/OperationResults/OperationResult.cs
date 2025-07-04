@@ -10,8 +10,6 @@ namespace Store.Application.OperationResults
     {
         public bool Success { get; set; }
         public string Message { get; set; }
-
-
-
+        public IEnumerable<object> Errors { get; set; }
     }
 }

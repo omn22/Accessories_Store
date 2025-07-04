@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{08BEB49E-2C34-4AB2-8F2E-A4078A244311}|store.API\\store.API.csproj|c:\\users\\omnia\\desktop\\iti\\store\\store.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{08BEB49E-2C34-4AB2-8F2E-A4078A244311}|store.API\\store.API.csproj|solutionrelative:store.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{08BEB49E-2C34-4AB2-8F2E-A4078A244311}|store.API\\store.API.csproj|c:\\users\\omnia\\desktop\\iti\\store\\store.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{08BEB49E-2C34-4AB2-8F2E-A4078A244311}|store.API\\store.API.csproj|solutionrelative:store.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{08BEB49E-2C34-4AB2-8F2E-A4078A244311}|store.API\\store.API.csproj|c:\\users\\omnia\\desktop\\iti\\store\\store.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{08BEB49E-2C34-4AB2-8F2E-A4078A244311}|store.API\\store.API.csproj|solutionrelative:store.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,28 +11,28 @@
       "RelativeMoniker": "D:0:0:{332388E4-5D0F-4E0D-A666-E5974C2289BC}|store.Application\\store.Application.csproj|solutionrelative:store.application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{332388E4-5D0F-4E0D-A666-E5974C2289BC}|store.Application\\store.Application.csproj|c:\\users\\omnia\\desktop\\iti\\store\\store.application\\services\\generatejwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{332388E4-5D0F-4E0D-A666-E5974C2289BC}|store.Application\\store.Application.csproj|solutionrelative:store.application\\services\\generatejwt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{332388E4-5D0F-4E0D-A666-E5974C2289BC}|store.Application\\store.Application.csproj|c:\\users\\omnia\\desktop\\iti\\store\\store.application\\interface\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{332388E4-5D0F-4E0D-A666-E5974C2289BC}|store.Application\\store.Application.csproj|solutionrelative:store.application\\interface\\services\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B69EE21F-8CAA-4BD7-9EAB-1611D7D366E6}|store.Domin\\store.Domin.csproj|c:\\users\\omnia\\desktop\\iti\\store\\store.domin\\enum\\errorcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B69EE21F-8CAA-4BD7-9EAB-1611D7D366E6}|store.Domin\\store.Domin.csproj|solutionrelative:store.domin\\enum\\errorcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{332388E4-5D0F-4E0D-A666-E5974C2289BC}|store.Application\\store.Application.csproj|c:\\users\\omnia\\desktop\\iti\\store\\store.application\\interface\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{332388E4-5D0F-4E0D-A666-E5974C2289BC}|store.Application\\store.Application.csproj|solutionrelative:store.application\\interface\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B69EE21F-8CAA-4BD7-9EAB-1611D7D366E6}|store.Domin\\store.Domin.csproj|c:\\users\\omnia\\desktop\\iti\\store\\store.domin\\enum\\errorcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B69EE21F-8CAA-4BD7-9EAB-1611D7D366E6}|store.Domin\\store.Domin.csproj|solutionrelative:store.domin\\enum\\errorcode.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{332388E4-5D0F-4E0D-A666-E5974C2289BC}|store.Application\\store.Application.csproj|c:\\users\\omnia\\desktop\\iti\\store\\store.application\\dtos\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{332388E4-5D0F-4E0D-A666-E5974C2289BC}|store.Application\\store.Application.csproj|solutionrelative:store.application\\dtos\\resetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{332388E4-5D0F-4E0D-A666-E5974C2289BC}|store.Application\\store.Application.csproj|c:\\users\\omnia\\desktop\\iti\\store\\store.application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{332388E4-5D0F-4E0D-A666-E5974C2289BC}|store.Application\\store.Application.csproj|solutionrelative:store.application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{332388E4-5D0F-4E0D-A666-E5974C2289BC}|store.Application\\store.Application.csproj|c:\\users\\omnia\\desktop\\iti\\store\\store.application\\dtos\\forgetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{332388E4-5D0F-4E0D-A666-E5974C2289BC}|store.Application\\store.Application.csproj|solutionrelative:store.application\\dtos\\forgetpassworddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DF4DAA10-C008-4988-BFE5-C7B1A3933FFB}|store.Infrastrucre\\store.Infrastrucre.csproj|c:\\users\\omnia\\desktop\\iti\\store\\store.infrastrucre\\context\\storecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DF4DAA10-C008-4988-BFE5-C7B1A3933FFB}|store.Infrastrucre\\store.Infrastrucre.csproj|solutionrelative:store.infrastrucre\\context\\storecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{08BEB49E-2C34-4AB2-8F2E-A4078A244311}|store.API\\store.API.csproj|c:\\users\\omnia\\desktop\\iti\\store\\store.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{08BEB49E-2C34-4AB2-8F2E-A4078A244311}|store.API\\store.API.csproj|solutionrelative:store.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{08BEB49E-2C34-4AB2-8F2E-A4078A244311}|store.API\\store.API.csproj|c:\\users\\omnia\\desktop\\iti\\store\\store.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{08BEB49E-2C34-4AB2-8F2E-A4078A244311}|store.API\\store.API.csproj|solutionrelative:store.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,132 +54,106 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.API\\appsettings.json",
-              "RelativeDocumentMoniker": "store.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.API\\appsettings.json*",
-              "RelativeToolTip": "store.API\\appsettings.json*",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACEAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-02T04:07:05.991Z",
+              "DocumentIndex": 2,
+              "Title": "ErrorCode.cs",
+              "DocumentMoniker": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Domin\\Enum\\ErrorCode.cs",
+              "RelativeDocumentMoniker": "store.Domin\\Enum\\ErrorCode.cs",
+              "ToolTip": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Domin\\Enum\\ErrorCode.cs*",
+              "RelativeToolTip": "store.Domin\\Enum\\ErrorCode.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T03:39:43.966Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "ResetPasswordDTO.cs",
+              "DocumentMoniker": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Application\\DTOs\\ResetPasswordDTO.cs",
+              "RelativeDocumentMoniker": "store.Application\\DTOs\\ResetPasswordDTO.cs",
+              "ToolTip": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Application\\DTOs\\ResetPasswordDTO.cs",
+              "RelativeToolTip": "store.Application\\DTOs\\ResetPasswordDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T03:12:29.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ForgetPasswordDTO.cs",
+              "DocumentMoniker": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Application\\DTOs\\ForgetPasswordDTO.cs",
+              "RelativeDocumentMoniker": "store.Application\\DTOs\\ForgetPasswordDTO.cs",
+              "ToolTip": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Application\\DTOs\\ForgetPasswordDTO.cs",
+              "RelativeToolTip": "store.Application\\DTOs\\ForgetPasswordDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T02:52:23.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "store.API\\Controllers\\AuthController.cs",
-              "ToolTip": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.API\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "store.API\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwCYAAAARAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.API\\Controllers\\AuthController.cs*",
+              "RelativeToolTip": "store.API\\Controllers\\AuthController.cs*",
+              "ViewState": "AgIAABwAAAAAAAAAAAAcwC0AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T03:47:27.685Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.API\\Program.cs",
-              "RelativeDocumentMoniker": "store.API\\Program.cs",
-              "ToolTip": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.API\\Program.cs*",
-              "RelativeToolTip": "store.API\\Program.cs*",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T03:45:20.513Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ITokenService.cs",
-              "DocumentMoniker": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Application\\Interface\\Services\\ITokenService.cs",
-              "RelativeDocumentMoniker": "store.Application\\Interface\\Services\\ITokenService.cs",
-              "ToolTip": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Application\\Interface\\Services\\ITokenService.cs",
-              "RelativeToolTip": "store.Application\\Interface\\Services\\ITokenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T03:26:27.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GenerateJWT.cs",
-              "DocumentMoniker": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Application\\Services\\GenerateJWT.cs",
-              "RelativeDocumentMoniker": "store.Application\\Services\\GenerateJWT.cs",
-              "ToolTip": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Application\\Services\\GenerateJWT.cs",
-              "RelativeToolTip": "store.Application\\Services\\GenerateJWT.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAuwCEAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T03:24:07.913Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ErrorCode.cs",
-              "DocumentMoniker": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Domin\\Enum\\ErrorCode.cs",
-              "RelativeDocumentMoniker": "store.Domin\\Enum\\ErrorCode.cs",
-              "ToolTip": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Domin\\Enum\\ErrorCode.cs",
-              "RelativeToolTip": "store.Domin\\Enum\\ErrorCode.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T02:11:55.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Application\\Interface\\Services\\IAuthService.cs",
-              "RelativeDocumentMoniker": "store.Application\\Interface\\Services\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Application\\Interface\\Services\\IAuthService.cs",
-              "RelativeToolTip": "store.Application\\Interface\\Services\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T02:05:26.675Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "AuthService.cs",
               "DocumentMoniker": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Application\\Services\\AuthService.cs",
               "RelativeDocumentMoniker": "store.Application\\Services\\AuthService.cs",
               "ToolTip": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Application\\Services\\AuthService.cs",
               "RelativeToolTip": "store.Application\\Services\\AuthService.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAAwJgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAqwI4AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-02T02:04:52.669Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Application\\DTOs\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "store.Application\\DTOs\\LoginDTO.cs",
-              "ToolTip": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Application\\DTOs\\LoginDTO.cs",
-              "RelativeToolTip": "store.Application\\DTOs\\LoginDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Application\\Interface\\Services\\IAuthService.cs",
+              "RelativeDocumentMoniker": "store.Application\\Interface\\Services\\IAuthService.cs",
+              "ToolTip": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Application\\Interface\\Services\\IAuthService.cs",
+              "RelativeToolTip": "store.Application\\Interface\\Services\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-02T02:03:03.374Z",
+              "WhenOpened": "2025-07-02T02:05:26.675Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "StoreContext.cs",
-              "DocumentMoniker": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Infrastrucre\\Context\\StoreContext.cs",
-              "RelativeDocumentMoniker": "store.Infrastrucre\\Context\\StoreContext.cs",
-              "ToolTip": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.Infrastrucre\\Context\\StoreContext.cs",
-              "RelativeToolTip": "store.Infrastrucre\\Context\\StoreContext.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.API\\Program.cs",
+              "RelativeDocumentMoniker": "store.API\\Program.cs",
+              "ToolTip": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.API\\Program.cs",
+              "RelativeToolTip": "store.API\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T19:39:28.123Z",
+              "WhenOpened": "2025-07-02T03:45:20.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.API\\appsettings.json",
+              "RelativeDocumentMoniker": "store.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\omnia\\Desktop\\ITI\\STORE\\store.API\\appsettings.json",
+              "RelativeToolTip": "store.API\\appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-07-02T04:07:05.991Z",
               "EditorCaption": ""
             }
           ]

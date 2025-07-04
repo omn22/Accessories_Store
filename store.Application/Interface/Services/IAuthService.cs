@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using store.Application.DTOs;
 using Store.Application.DTOs;
 using Store.Application.OperationResults;
 using System;
@@ -14,6 +15,7 @@ namespace Store.Application.Interface.Services
         Task<OperationResult> RegisterAsync(RegisterUserDTO registerDTO);
         Task<OperationResult> ConfirmEmailAsync(string userId, string token);
         Task<OperationResult> LoginAsync (string Email, string password,bool RememberMe);
-      
+        Task<OperationResult> ForgetPassAsync(ForgetPasswordDTO forgetPasswordDTO);
+        Task<OperationResult> ResetPassAsync(ResetPasswordDTO resetPasswordDTO);
     }
 }

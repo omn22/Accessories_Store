@@ -14,6 +14,7 @@ using System.Net;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using store.Domin.Enum;
 using store.Application.Interface.Services;
+using store.Application.DTOs;
 namespace Store.Application.Services
 {
     public class AuthService : IAuthService
@@ -151,5 +152,44 @@ namespace Store.Application.Services
                 return new OperationResult { Success = false, Message = $"wrong password {ErrorCode.WrongPassword} " };
         }
 
+
+
+        public async Task<OperationResult> ForgetPassAsync(ForgetPasswordDTO forgetPasswordDTO)
+        {
+            // نجيب المستخدم من الداتا بيز عن طريق الإيميل
+            var user = await _userManager.FindByEmailAsync(forgetPasswordDTO.Email);
+
+            // لو المستخدم مش موجود
+            if (user == null)
+                return new OperationResult { Success = false, Message = $"Email Not found {ErrorCode.NotFoundEmail}" };
+
+            // لو المستخدم لسه ما فعّلش الإيميل
+            else if (user.EmailConfirmed == false)
+            {
+                return new OperationResult { Success = false, Message = $"wrong password {ErrorCode.NotConfirmedEmail} " };
+            }
+            var token = await _userManager.GeneratePasswordResetTokenAsync(user);
+            var encodedToken = WebUtility.UrlEncode(token);
+            var confirmationLink = $"{_configuration["AppSettings:ClientUrl"]}/api/auth/ResetPass?token={encodedToken}";
+
+            await _emailService.SendEmailAsync(user.Email, "Confirm your email",
+                $"Please make us sure that this you try to reset your password: <a href='{confirmationLink}'>Reset Password</a>");
+            Console.WriteLine($"Confirm via: {confirmationLink}");
+            return new OperationResult { Success = true, Message = "check your email." };
+
+        }
+        public async Task<OperationResult> ResetPassAsync(ResetPasswordDTO resetPasswordDTO)
+        {
+            var user = await _userManager.FindByEmailAsync(resetPasswordDTO.Email);
+
+            // لو المستخدم مش موجود
+            if (user == null)
+                return new OperationResult { Success = false, Message = $"Email Not found {ErrorCode.NotFoundEmail}" };
+            var encodedToken = WebUtility.UrlDecode(resetPasswordDTO.Token);
+            var result = await _userManager.ResetPasswordAsync(user, encodedToken,resetPasswordDTO.NewPassword);
+            var errors = string.Join(", ", result.Errors.Select(e => e.Description));
+            if (!result.Succeeded) return new OperationResult { Success = false, Message = $"{errors}" };
+             return new OperationResult { Success = true, Message = "password reset succeeded" };
+        }
     }
 }

@@ -8,9 +8,11 @@ namespace store.Domin.Enum
 {
     public enum ErrorCode
     {
-        NotFoundEmail,
+        NotFoundEmail=100,
         WrongPassword,
         NotConfirmedEmail,
-        ToManyTry
+        ToManyTry,
+        CanNotResetPassword,
+        CanNotLogIn
     }
 }

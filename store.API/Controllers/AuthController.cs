@@ -33,13 +33,31 @@ namespace Store.API.Controllers
 
             if (result.Success)
                 return Ok(new { message = result.Message });
-
             return BadRequest(new { message = result.Message });
         }
         [HttpPost("Login")]
         public async Task<IActionResult> Login (LoginDTO loginDTO)
         {
             var result = await _authService.LoginAsync(loginDTO.Email, loginDTO.Password,loginDTO.RememberMe);
+            if (result.Success)
+                if (result.Success)
+                    return Ok(new { message = result.Message });
+            return BadRequest(new { message = result.Message });
+        }
+        [HttpPost("ForgetPass")]
+        public async Task<IActionResult> ForgetPassword (ForgetPasswordDTO forgetPasswordDTO)
+        {
+            var result = await _authService.ForgetPassAsync(forgetPasswordDTO);
+                 if (result.Success)
+                if (result.Success)
+                    return Ok(new { message = result.Message });
+            return BadRequest(new { message = result.Message });
+
+        }
+        [HttpPost("ResetPass")]
+        public async Task<IActionResult> ResetPassword (ResetPasswordDTO resetPasswordDTO)
+        {
+            var result = await _authService.ResetPassAsync(resetPasswordDTO);
             if (result.Success)
                 if (result.Success)
                     return Ok(new { message = result.Message });
