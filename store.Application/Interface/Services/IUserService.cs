@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace store.Application.Interface.Services
 {
-    internal interface IUserService
+    public interface IUserService
     {
     }
 }

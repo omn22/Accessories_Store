@@ -13,6 +13,7 @@ namespace store.Domin.Enum
         NotConfirmedEmail,
         ToManyTry,
         CanNotResetPassword,
-        CanNotLogIn
+        CanNotLogIn,
+        BlokedAccount
     }
 }

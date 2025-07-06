@@ -15,6 +15,7 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 using store.Domin.Enum;
 using store.Application.Interface.Services;
 using store.Application.DTOs;
+using System.Data;
 namespace Store.Application.Services
 {
     public class AuthService : IAuthService
@@ -116,54 +117,44 @@ namespace Store.Application.Services
             return new OperationResult { Success = false, Message = $"Email confirmation failed: {errors}" };
         }
         public async Task<OperationResult> LoginAsync(string Email, string password, bool RememberMe)
-        {
-            // نجيب المستخدم من الداتا بيز عن طريق الإيميل
+        {   //sure that user do not bloked 
+            //make user can login with username
             var user = await _userManager.FindByEmailAsync(Email);
-
-            // لو المستخدم مش موجود
             if (user == null)
                 return new OperationResult { Success = false, Message = $"Email Not found {ErrorCode.NotFoundEmail}" };
-
-            // لو المستخدم لسه ما فعّلش الإيميل
             else if (user.EmailConfirmed == false)
-            {
                 return new OperationResult { Success = false, Message = $"wrong password {ErrorCode.NotConfirmedEmail} " };
-            }
-
-            // محاولة تسجيل الدخول
+            else if (user.IsDeleted)
+                return new OperationResult { Success = false, Message = $"your account has been bloked {ErrorCode.BlokedAccount} " };
             var result = await _signInManager.PasswordSignInAsync(user, password, RememberMe, lockoutOnFailure: true);
-
-            // لو تسجيل الدخول نجح
             if (result.Succeeded)
             {
-                // توليد التوكن
-                var Token = _tokenService.GenerateJwtToken(user);
-
-                // رجع النتيجة مع التوكن
-                return new OperationResult { Success = true, Message = $"Login succeeded , Token = {Token.Result}" };
+                //generat token
+                var token =await _tokenService.GenerateJwtToken(user);
+                //save role
+                var roles = await _userManager.GetRolesAsync(user);
+                //save token in opject to future use
+                var response = new LoginRespondDTO
+                {
+                    Token = token,
+                    Expiration = DateTime.Now.AddHours(1),
+                    UserName = user.UserName,
+                    Email = user.Email,
+                    Role = roles.ToList(),
+                };
+                return new OperationResult { Success = true, Message = $"Login succeeded , Token = {token}" };
             }
-
-            // لو المستخدم اتحظر مؤقتًا بسبب عدد المحاولات
+            //if user locked 
             else if (result.IsLockedOut == true)
                 return new OperationResult { Success = false, Message = $"you try to many times please wait 5 Seconds {ErrorCode.ToManyTry} " };
-
-            // لو الباسورد غلط
-            else
-                return new OperationResult { Success = false, Message = $"wrong password {ErrorCode.WrongPassword} " };
+               return new OperationResult { Success = false, Message = $"wrong password {ErrorCode.WrongPassword} " };
         }
-
-
 
         public async Task<OperationResult> ForgetPassAsync(ForgetPasswordDTO forgetPasswordDTO)
         {
-            // نجيب المستخدم من الداتا بيز عن طريق الإيميل
             var user = await _userManager.FindByEmailAsync(forgetPasswordDTO.Email);
-
-            // لو المستخدم مش موجود
             if (user == null)
                 return new OperationResult { Success = false, Message = $"Email Not found {ErrorCode.NotFoundEmail}" };
-
-            // لو المستخدم لسه ما فعّلش الإيميل
             else if (user.EmailConfirmed == false)
             {
                 return new OperationResult { Success = false, Message = $"wrong password {ErrorCode.NotConfirmedEmail} " };
@@ -180,9 +171,7 @@ namespace Store.Application.Services
         }
         public async Task<OperationResult> ResetPassAsync(ResetPasswordDTO resetPasswordDTO)
         {
-            var user = await _userManager.FindByEmailAsync(resetPasswordDTO.Email);
-
-            // لو المستخدم مش موجود
+            var user = await _userManager.FindByEmailAsync(resetPasswordDTO.Email); 
             if (user == null)
                 return new OperationResult { Success = false, Message = $"Email Not found {ErrorCode.NotFoundEmail}" };
             var encodedToken = WebUtility.UrlDecode(resetPasswordDTO.Token);
